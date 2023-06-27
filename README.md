@@ -1,12 +1,10 @@
 ## DEMO 
 
-Here,
-
-[https://2dream.vercel.app/](https://2dream.vercel.app/)
+[https://nextjs-clerksjs-prisma-template.vercel.app/](https://nextjs-clerksjs-prisma-template.vercel.app/)
 
 ## Getting Started
 
-Environment variables are:
+Firstly set environment variables:
 
 ```env
 DATABASE_URL="postgres://..."  # if using postgresql
@@ -18,7 +16,7 @@ CLERK_SECRET_KEY="" # from clerkjs dashboard
 To run developement server,
 
 ```cmd
-git clone https://github.com/szriru/2dream
+git clone https://github.com/szriru/nextjs-clerksjs-prisma-template
 ```
 
 then
