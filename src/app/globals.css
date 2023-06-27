@@ -1,0 +1,25 @@
+/* inject taliwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base layer */
+@layer base {
+  h1 {
+    @apply text-3xl font-semibold
+  }
+  h2 {
+    @apply text-2xl
+  }
+  h3 {
+    @apply text-xl 
+  }
+}
+
+/* for react-quill editor */
+.ql-editor {
+  overflow-y: scroll;
+  resize: vertical;
+  
+  min-height:300px;
+}
